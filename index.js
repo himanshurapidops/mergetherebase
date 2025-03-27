@@ -174,6 +174,7 @@
 
 
 
+git 
 //common js next tick first exicute
 
 // es module ma promise will run firs
