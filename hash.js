@@ -91,7 +91,7 @@ const fs = require('fs');
 setTimeout(() => {
     console.log('setTimeout 1');
     setTimeout(() => {
-        
+
         console.log('setTimeout inside setTimeout 1');
     },0)
     setImmediate(() => {
@@ -103,6 +103,7 @@ setTimeout(() => {
         console.log('setTimeout inside setTimeout 2 ');
     },0)
     process.nextTick(() => console.log('nextTick inside setTimeout'));
+    
     Promise.resolve().then(() => console.log('promise inside setTimeout'));
 }, 2000);
 
