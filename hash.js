@@ -105,6 +105,11 @@ setTimeout(() => {
     Promise.resolve().then(() => console.log('promise inside setTimeout'));
 }, 2000);
 
+
+
+
 Promise.resolve().then(() => {
     console.log('Promise 1');
 })
+
+//a
