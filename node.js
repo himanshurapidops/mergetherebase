@@ -50,6 +50,7 @@ fs.readFile(__filename, () => {
     setTimeout(() => {
         console.log('setTimeout 2');
     },50);
+    
 });
 
 setTimeout(() => {
