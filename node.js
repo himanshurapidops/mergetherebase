@@ -60,6 +60,8 @@ setTimeout(() => {
         console.log('setTimeout inside setTimeout 1');
     },1)
     setImmediate(() => console.log('setImmediate inside setTimeout'));
+
+    
     setTimeout(() => {
         console.log('setTimeout inside setTimeout 2 ');
     },1)
