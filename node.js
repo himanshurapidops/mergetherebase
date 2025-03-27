@@ -53,6 +53,7 @@ fs.readFile(__filename, () => {
 });
 
 setTimeout(() => {
+    
     console.log('setTimeout 1');
     setTimeout(() => {
         console.log('setTimeout inside setTimeout 1');
