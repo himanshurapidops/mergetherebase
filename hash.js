@@ -91,6 +91,7 @@ const fs = require('fs');
 setTimeout(() => {
     console.log('setTimeout 1');
     setTimeout(() => {
+        
         console.log('setTimeout inside setTimeout 1');
     },0)
     setImmediate(() => {
